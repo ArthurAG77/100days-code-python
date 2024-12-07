@@ -1,5 +1,3 @@
-i = 0
-
 while True:
     calc = input("Insert your calculation here: ")
     try:
