@@ -1,3 +1,7 @@
+"""
+Write a function to count the number of vowels in a string.
+"""
+
 import sys
 sys.path.append(r'C:\Users\Mestre do Universo\Desktop\100 days code')
 
