@@ -13,7 +13,6 @@ def ask_int(order:str):
         print("Please, insert integers")
 
 while True:
-
     first_int = ask_int("First")
     second_int = ask_int("Second")
 
