@@ -1,5 +1,8 @@
-def is_palindrome(word:str):
+"""
+https://www.100daysofcode.io/learn/python/day-16
+"""
 
+def is_palindrome(word:str):
     if word == "" or word == " ":
         pass
     else: 
