@@ -14,8 +14,8 @@ def check_frequency(sentence:str):
             frequency.append((word, counter))
         else:
             pass
-
         counter = 0
-    print(frequency)
+    for x in frequency:
+        print(f"The word: {x[0]} - appeared: {x[1]} times")
 
 check_frequency("é os guris né pai os guris mesmo")
