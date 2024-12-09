@@ -1,4 +1,8 @@
 def ask_str(input_str:str, exception_message:str):
+    """
+    if you press enter return false
+    """
+
     try:
         word = str(input(f"{input_str}"))
         if word == '' or word == ' ':
