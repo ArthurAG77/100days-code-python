@@ -1,3 +1,7 @@
+"""
+Handle exceptions for division by zero.
+"""
+
 while True:
     try:
         ask_division = input("Digit a division: ")

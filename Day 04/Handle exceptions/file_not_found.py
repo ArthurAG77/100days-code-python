@@ -1,5 +1,8 @@
-import os
+"""
+Handle exceptions for file not found.
+"""
 
+import os
 
 try:
     file_path = os.path.join(r"C:\Users\Mestre do Universo\Desktop\100 days code\inexistent_file.txt")
