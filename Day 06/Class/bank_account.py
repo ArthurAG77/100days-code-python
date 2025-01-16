@@ -1,3 +1,8 @@
+"""
+day 42 -> Create a class for a bank account with methods for deposit and withdrawal.
+https://www.100daysofcode.io/learn/python/day-42
+"""
+
 class BankAccount:
     def __init__(self, accountNumber:int, accountOwner:str, accountType:str = 'basic', balance:float = 120.00):
         """
